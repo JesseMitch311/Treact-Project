@@ -1,0 +1,178 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.row__nav {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo__wrapper {
+    margin: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 36px;
+}
+
+.logo__link {
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link {
+    margin: 8px;
+    list-style: none;
+}
+
+/*
+
+About
+
+*/
+
+#about {
+    height: 100vh;
+}
+
+.container__about {
+    padding: 32px;
+}
+
+.row__about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__description {
+    width: 40%;
+    max-width: 580px;
+}
+
+.about__title {
+    font-size: 48px;
+    margin-bottom: 42px;
+}
+
+.buttonIn {
+    width: 80%;
+    position: relative;
+    margin: 36px 0 42px 0;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 24px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 24px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    padding: 8px;
+    top: 2px;
+    height: 36px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(91, 31, 212);
+    transform:
+
+}
+
+.customers {
+    
+}
+
+.customers__img {
+    width: 100%;
+}
+
+.about__img--wrapper {
+    margin-left: 64px;
+}
+
+.about__img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/*
+
+FEATURES
+
+*/
+
+.container__features {
+    padding: 80px 0;
+}
+
+.row__features {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.services {
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    width: calc(100%/3);
+}
+
+.service__description {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
